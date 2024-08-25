@@ -1,0 +1,49 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 15rem;
+  min-height: 90.5vh;
+  background-image: url(img/menu.jpg);
+  background-size: cover;
+}
+
+.our-menu {
+  margin-top: 2rem;
+  font-size: 5.2rem;
+  font-weight: 300;
+}
+
+.menu-choice {
+  display: grid;
+  grid-template-rows: 0.1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.menu-descript {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.main-menu {
+  border: 1px solid #000000;
+  min-height: 17rem;
+}
+
+.all-menu-container {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+  gap: 4rem;
+}
+
+.sub-choice-container {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+
+.sub-choice {
+  border: 1px solid #000000;
+}

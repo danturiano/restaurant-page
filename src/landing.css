@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 2rem 15rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-style {
+  font-weight: 800;
+  font-size: 3.2rem;
+  margin-right: 8rem;
+}
+
+.nav-btn {
+  border: 0px;
+  padding: 0;
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.book-btn {
+  border: 1px solid var(--primary-color);
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  cursor: pointer;
+}
+
+/* #content {
+  display: flex;
+  align-items: center;
+  padding: 2rem 15rem;
+  min-height: 90.5vh;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+} */
+
+.main-container {
+  display: flex;
+  align-items: center;
+  padding: 2rem 15rem;
+  min-height: 90.5vh;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+}
+
+.big-text {
+  width: 15ch;
+  font-size: 9.8rem;
+  color: var(--primary-color);
+}
+.small-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  width: 60ch;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-family: var(--secondary-font);
+}
